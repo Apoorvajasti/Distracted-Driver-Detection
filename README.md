@@ -36,7 +36,7 @@ Following is the general proess followed while running different models :
 - Running differnt models and repeating the process 
 - Ensembling the few selected models 
 
-* The log loss we achieved is in top 12 percentile on Kaggle
+The log loss we achieved is in top 12 percentile on Kaggle
 
 
 
