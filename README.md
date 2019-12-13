@@ -21,3 +21,24 @@ There are 10 classes including safe driving in the dataset:
 
 This dataset is available on Kaggle, under the State Farm competition:
 https://www.kaggle.com/c/state-farm-distracted-driver-detection
+
+
+In order to predict the class, we started with VGG-16 and trained it on extra layers. We then tuned the parameters, trained it on all layers and used different models - RESNET50, XCEPTION and MOBILE NET models. The models were then ensembled them and predicted the imgaes. To further improving the ensembling method we used KNN smoothing. Since the images are all snapped from video snippets there were substantial number of images from the same class that were similar. Based on this premise, we found similar images and averaged the probabilities over these images which helped us smoothen predicted probabilities for each class. 
+
+
+
+Following is the general proess followed while running different models : 
+
+- Image Augmentation by rotating it and then shifting the width and height of the image. Then only a specific region of the image was     taken to further improve the accuracy of the image 
+- Splitting the data into train, validation and test 
+- Running Models by training extra layer first and then all layers 
+- Optimizing parameters : number of epochs, batchses and optimizer
+- Running differnt models and repeating the process 
+- Ensembling the few selected models 
+
+
+
+
+
+
+
