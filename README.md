@@ -38,7 +38,8 @@ Following is the general proess followed while running different models :
 
 The log loss we achieved is in top 12 percentile on Kaggle
 
-
+## The Team:
+Amey Athaley, Apoorva Jasti, Jayant Raisinghani, Sadhana Koneni and Satya Naren Pachigolla from The University of Texas at Austin. For the complete review of the project-work, please find our blog post - https://towardsdatascience.com/distracted-driver-detection-using-deep-learning-e893715e02a4
 
 
 
